@@ -88,7 +88,7 @@ const xprisma = prisma.$extends({
 The following example adds a `validate` method to all models.
 
 ```ts
-const xprisma = new prisma.$extends({
+const xprisma = prisma.$extends({
   model: {
     $allModels: {
       validate(data: unknown) {
